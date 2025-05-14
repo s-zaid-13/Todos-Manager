@@ -1,0 +1,48 @@
+/* Styling for the entire filter section */
+section {
+    margin: 1rem 0;
+    padding: 1rem;
+    /* border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #f9f9f9; */
+    /* max-width: 400px; */
+}
+
+/* Styling for the label elements */
+label {
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: #555;
+
+}
+
+/* Styling for the select dropdown elements */
+select {
+    /* width: 100%; */
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: white;
+    transition: border-color 0.2s;
+}
+
+/* Focus effect on the select dropdown */
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Optional: Styling for the heading (Filters title) */
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.filterBoxes {
+    display: flex;
+    gap: 5px;
+}

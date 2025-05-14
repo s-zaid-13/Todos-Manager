@@ -1,0 +1,87 @@
+/* Main app container */
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+.appHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.appTitle {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0 0 0;
+}
+
+.appLogo {
+  height: 60px;
+  width: auto;
+}
+
+/* Content area */
+.appContent {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Todo Form */
+.todoForm {
+  margin-bottom: 30px;
+}
+
+.todoForm h2 {
+  margin: 0 0 15px 0;
+  font-size: 1.3rem;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoForm h2 button {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.todoForm h2 button:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+/* Form elements (keep existing form styles) */
+
+.addButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.addButton:hover {
+  background-color: #3d8b40;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 15px 0;
+}

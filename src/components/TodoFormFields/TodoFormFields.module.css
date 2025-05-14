@@ -1,0 +1,48 @@
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.formGroup textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+
+.inputRow {
+    display: flex;
+    gap: 15px;
+}
+
+.inputRow .formGroup {
+    flex: 1;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 15px 0;
+}
+
+.FormFieldError {
+    padding-left: 9px;
+    font-size: 13px;
+    color: salmon;
+}
